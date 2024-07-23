@@ -1,7 +1,6 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
-from wordcloud import WordCloud
 
 # 数据存储在一个CSV文件中
 df = pd.read_csv(r'C:\Users\admin\OneDrive\桌面\UM\mentalHealthPrediction\dataset\Combined Data.csv')
@@ -10,6 +9,7 @@ print(df.head())
 ## 缺省值
 print(df.isnull().sum())  # 查看缺失值情况
 df.dropna(inplace=True)  # 删除缺失值
+
 
 ## 标签分布
 count = df["status"].value_counts()
@@ -44,6 +44,9 @@ sns.histplot(data=df['text_length'],bins= 70)
 plt.title('Text Length Distribution')
 # plt.show()
 
+##Investigate the length of each statement
+df['length'] = df['statement'].apply(lambda x: len(x.split()))
+df['length'].describe()
 
 # # 词频分析
 def plot_wordcloud(emotion):

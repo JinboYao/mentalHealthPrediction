@@ -1,7 +1,7 @@
 import pandas as pd
 
 # 加载数据
-df = pd.read_csv(r'C:\Users\admin\OneDrive\桌面\UM\mentalHealthPrediction\dataset\Combined Data.csv')
+df = pd.read_csv(r'/Users/yaojinbo/Desktop/mentalHealthPrediction/dataset/Processed Data.csv')
 
 # 计算分割点
 train_size = int(len(df) * 0.7)
@@ -17,8 +17,8 @@ val_df = df.iloc[train_size:train_size + val_size]
 test_df = df.iloc[train_size + val_size:]
 
 # 保存为CSV文件
-train_df.to_csv(r'C:\Users\admin\OneDrive\桌面\UM\mentalHealthPrediction\dataset\train.csv', index=False)
-val_df.to_csv(r'C:\Users\admin\OneDrive\桌面\UM\mentalHealthPrediction\dataset\val.csv', index=False)
-test_df.to_csv(r'C:\Users\admin\OneDrive\桌面\UM\mentalHealthPrediction\dataset\test.csv', index=False)
+train_df.to_csv(r'/Users/yaojinbo/Desktop/mentalHealthPrediction/dataset/train.csv', index=False)
+val_df.to_csv(r'/Users/yaojinbo/Desktop/mentalHealthPrediction/dataset/val.csv', index=False)
+test_df.to_csv(r'/Users/yaojinbo/Desktop/mentalHealthPrediction/dataset/test.csv', index=False)
 
 print("Data split into train, validation, and test sets and saved as CSV files.")
