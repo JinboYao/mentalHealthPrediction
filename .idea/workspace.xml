@@ -5,20 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2ef46268-36bd-47fa-8929-b68619243df3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/EDA/data_split.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EDA/eda.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ADVANCED MACHINE LEARNING/project/process/bingtu.py" beforeDir="false" afterPath="$PROJECT_DIR$/../ADVANCED MACHINE LEARNING/project/process/bingtu.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ADVANCED MACHINE LEARNING/project/process/length.py" beforeDir="false" afterPath="$PROJECT_DIR$/../ADVANCED MACHINE LEARNING/project/process/length.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ADVANCED MACHINE LEARNING/project/process/stopword.py" beforeDir="false" afterPath="$PROJECT_DIR$/../ADVANCED MACHINE LEARNING/project/process/stopword.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ADVANCED MACHINE LEARNING/project/vedio.py" beforeDir="false" afterPath="$PROJECT_DIR$/../ADVANCED MACHINE LEARNING/project/vedio.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ADVANCED MACHINE LEARNING/project/vid/demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/../ADVANCED MACHINE LEARNING/project/vid/demo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ADVANCED MACHINE LEARNING/work4/Learning.py" beforeDir="false" afterPath="$PROJECT_DIR$/../ADVANCED MACHINE LEARNING/work4/Learning.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ADVANCED MACHINE LEARNING/work4/scatter.py" beforeDir="false" afterPath="$PROJECT_DIR$/../ADVANCED MACHINE LEARNING/work4/scatter.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../demo/samplyzer" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../demo/test-sy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../documents of X-lab/codeup/samplyzer" beforeDir="false" afterPath="$PROJECT_DIR$/../../documents of X-lab/codeup/samplyzer" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../varno/varno" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EDA/data_processing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/mentalHealthPrediction.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/mentalHealthPrediction.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,25 +28,44 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "JinboYao"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/JinboYao/mentalHealthPrediction.git",
+    "accountId": "fa68d958-1f7b-4432-b4ac-6b568d51ec71"
+  }
+}]]></component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 1
+}]]></component>
   <component name="ProjectId" id="2jQ5uxlqw2jHmVnM0hIlUaAe6Tb" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/admin/OneDrive/桌面/UM/mentalHealthPrediction&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/yaojinbo/Desktop/mentalHealthPrediction",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Python.data_split">
     <configuration name="data_split" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="mentalHealthPrediction" />
+      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -75,6 +87,7 @@
     </configuration>
     <configuration name="eda" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="mentalHealthPrediction" />
+      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -96,6 +109,7 @@
     </configuration>
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="mentalHealthPrediction" />
+      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -121,6 +135,13 @@
         <item itemvalue="Python.eda" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-975db3bf15a3-31b6be0877a2-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-241.18034.82" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -149,5 +170,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$USER_HOME$" />
+    </ignored-roots>
   </component>
 </project>
