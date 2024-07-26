@@ -11,6 +11,10 @@ from sklearn.metrics import accuracy_score, classification_report
 train_data = pd.read_csv('/Users/yaojinbo/Desktop/mentalHealthPrediction/dataset/train.csv')
 test_data = pd.read_csv('/Users/yaojinbo/Desktop/mentalHealthPrediction/dataset/test.csv')
 val_data = pd.read_csv('/Users/yaojinbo/Desktop/mentalHealthPrediction/dataset/val.csv')
+# Ensure all text data are strings and replace NaNs
+train_data['statement'] = train_data['statement'].fillna('').astype(str)
+test_data['statement'] = test_data['statement'].fillna('').astype(str)
+val_data['statement'] = val_data['statement'].fillna('').astype(str)
 
 # Combine train and validation data
 full_train_data = pd.concat([train_data, val_data])
