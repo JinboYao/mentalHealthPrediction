@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2ef46268-36bd-47fa-8929-b68619243df3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/EDA/Feature_extra.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/dl_baseline.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/deeplearning_baseline.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/deeplearning_baseline.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
